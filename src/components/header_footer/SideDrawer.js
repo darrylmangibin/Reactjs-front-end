@@ -43,16 +43,6 @@ const SideDrawer = (props) => {
                 <ListItem button onClick={()=> scrollToElement('location')}>
                     Location
                 </ListItem>
-                <a href="https://fierce-thicket-60455.herokuapp.com/" target="_blank">
-                  <ListItem button>
-                    React App - Expensify
-                  </ListItem>
-                </a>
-                <a href="https://vivixx-dev.herokuapp.com/profile/darryl">
-                  <ListItem button>
-                    React App - Social Media for developers
-                  </ListItem>
-                </a>
             </List> 
         </Drawer>
     );

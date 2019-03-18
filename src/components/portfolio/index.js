@@ -5,26 +5,30 @@ import Zoom from 'react-reveal/Zoom';
 class portfolio extends Component {
 
     state = {
-        name:['React','React','Github'],
-        items:['Expensify','Social Media for developers','Github Repository'],
+        name:['React','React','React','Github'],
+        items:['Expensify','Social Media for developers', 'Pure React Javascript', 'Github Repository'],
         desc:[
             'CRUD Application for your expenses. You can list down all your expenses. Back end - Firebase',
 
             'CRUD Application like facebook. You can register, login and delete your account. Also you can create comments or delete them and can view profiles registered user. Back end - MongoDB Node(express)',
+
+            'Application that can decide your what to do. It is a simple React application',
 
             'You can view my activities or source code of all my projects in my Github'
         ],
         linkto: [
           'https://fierce-thicket-60455.herokuapp.com/',
           'https://vivixx-dev.herokuapp.com/profile/darryl',
+          'http://inquisitive-pollution.surge.sh/',
           'https://github.com/darrylmangibin'
         ],
         sourceCode: [
           'https://github.com/darrylmangibin/React-expensify',
           'https://github.com/darrylmangibin/dev-connector-mern',
+          'https://github.com/darrylmangibin/Reactjs-indecsion-app-v2',
           'https://github.com/darrylmangibin/Reactjs-front-end'
         ],
-        delay:[500,0,500]
+        delay:[500,0,500, 500]
 
     }
 
