@@ -64,6 +64,20 @@ const SideDrawer = (props) => {
         >
           Location
         </ListItem>
+        <a href="https://fierce-thicket-60455.herokuapp.com/" target="_blank">
+          <ListItem
+            button
+          >
+            React App Expensify
+          </ListItem>
+        </a>
+        <a href="https://vivixx-dev.herokuapp.com/profile/darryl" target="_blank">
+          <ListItem
+            button
+          >
+            React Social Media for developers
+          </ListItem>
+        </a>
       </List>
     </Drawer>
   )
