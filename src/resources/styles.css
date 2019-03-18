@@ -28,7 +28,7 @@ body {
 }
 
 .center_wrapper {
-    width: 900px;
+    max-width: 900px;
     margin:0 auto;
 }
 
@@ -232,12 +232,12 @@ footer .footer_copyright {
     font-weight: 300;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
-    padding: 30px 0px;
+    padding: 30px 30px;
 }
 
 .discount_wrapper {
     display: flex;
-    padding: 70px 0px;
+    padding: 70px 30px;
 }
 
 .discount_wrapper .discount_porcentage {
@@ -357,4 +357,44 @@ footer .footer_copyright {
     font-size: 29px;
     padding: 15px 20px;
     text-align: center;
+}
+
+
+@media (max-width: 767px) {
+  .vn_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .vn_item {
+    width: 100%;
+  }
+  .highlight_wrapper .highlight_description {
+    padding: 30px 55px;
+  }
+  .discount_wrapper {
+    flex-direction: column;
+    padding: 70px 55px;
+  }
+  .pricing_wrapper {
+    flex-direction: column;
+  }
+  .pricing_wrapper .pricing_item {
+    width: 100%;
+  }
+  .countdown_wrapper .countdown_time {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* .countdown_wrapper {
+    width: 100%;
+  } */
+  .countdown_wrapper .countdown_time {
+    font-size: 10px;
+  }
+  .countdown_wrapper .countdown_tag {
+    font-size: 8px;
+  }
 }

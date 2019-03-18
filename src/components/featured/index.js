@@ -1,20 +1,23 @@
 import React from 'react';
-
-import Carousel from './carousel';
+import Carrousel from './Carrousel';
 import TimeUntil from './TimeUntil';
 
 const Featured = () => {
-  return (
-    <div style={{ position: 'relative' }}>
-      <Carousel />
-      <div className="artist_name">
-        <div className="wrapper">
-          Darryl Mangibin
+    return (
+        <div style={{position:'relative'}}>
+
+            <Carrousel/>
+
+            <div className="artist_name">
+                <div className="wrapper">
+                    Darryl Mangibin
+                </div>
+            </div>
+
+            <TimeUntil/>
+
         </div>
-      </div>
-      <TimeUntil />
-    </div>
-  )
-}
+    );
+};
 
 export default Featured;
