@@ -13,7 +13,7 @@ const Footer = () => {
           The Venue
         </div>
         <div className="footer_copyright">
-          The Venue {now}. All rights reserved
+          Darryl Mangibin {now}. All rights reserved
         </div>
       </Fade>
     </footer>
