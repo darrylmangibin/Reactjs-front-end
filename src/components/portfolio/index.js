@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MyButton from '../utils/MyButton';
 import Zoom from 'react-reveal/Zoom';
 
-class Pricing extends Component {
+class portfolio extends Component {
 
     state = {
         name:['React','React','Github'],
@@ -12,12 +12,17 @@ class Pricing extends Component {
 
             'CRUD Application like facebook. You can register, login and delete your account. Also you can create comments or delete them and can view profiles registered user. Back end - MongoDB Node(express)',
 
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+            'You can view my activities or source code of all my projects in my Github'
         ],
         linkto: [
           'https://fierce-thicket-60455.herokuapp.com/',
           'https://vivixx-dev.herokuapp.com/profile/darryl',
           'https://github.com/darrylmangibin'
+        ],
+        sourceCode: [
+          'https://github.com/darrylmangibin/React-expensify',
+          'https://github.com/darrylmangibin/dev-connector-mern',
+          'https://github.com/darrylmangibin/Reactjs-front-end'
         ],
         delay:[500,0,500]
 
@@ -26,16 +31,25 @@ class Pricing extends Component {
     showBoxes = () => (
         this.state.name.map((box,i)=>(
             <Zoom delay={this.state.delay[i]} key={i}>
-                <div className="pricing_item">
-                    <div className="pricing_inner_wrapper">
-                        <div className="pricing_title">
+                <div className="portfolio_item">
+                    <div className="portfolio_inner_wrapper">
+                        <div className="portfolio_title">
                             <span>{this.state.name[i]}</span>
                             <span>{this.state.items[i]}</span>
                         </div>
-                        <div className="pricing_description">
+                        <div className="portfolio_description">
                             {this.state.desc[i]}
+                            <br/>
+                            <a 
+                              style={{
+                                color: '#fff'
+                              }}
+                              href={this.state.sourceCode[i]}
+                              target="_blank"
+                            >View Source Code</a>
+
                         </div>
-                        <div className="pricing_buttons">
+                        <div className="portfolio_buttons">
                             <MyButton
                                 text="Visit URL"
                                 bck="#ffa800"
@@ -53,10 +67,10 @@ class Pricing extends Component {
     render() {
         return (
             <div className="bck_black">
-                <div className="center_wrapper pricing_section">
+                <div className="center_wrapper portfolio_section">
                     <h2>Portfolio</h2>
 
-                    <div className="pricing_wrapper">
+                    <div className="portfolio_wrapper">
                         {this.showBoxes()}
                     </div>
 
@@ -66,4 +80,4 @@ class Pricing extends Component {
     }
 }
 
-export default Pricing;
+export default portfolio;
