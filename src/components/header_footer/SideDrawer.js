@@ -32,8 +32,8 @@ const SideDrawer = (props) => {
                     Venue NFO
                 </ListItem>
 
-                <ListItem button onClick={()=> scrollToElement('highlights')}>
-                    Highlights
+                <ListItem button onClick={()=> scrollToElement('goals')}>
+                    Goals
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('portfolio')}>

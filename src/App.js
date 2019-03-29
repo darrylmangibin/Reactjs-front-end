@@ -25,7 +25,7 @@ class App extends Component {
           <VunueNfo/>
         </Element>
         
-        <Element name="highlights">
+        <Element name="goals">
           <Highlight/>
         </Element>
         

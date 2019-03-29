@@ -5,9 +5,9 @@ const Description = () => {
     return (
         <Fade>
             <div className="center_wrapper">
-                <h2>Highlights</h2>
+                <h2>GOAL</h2>
                 <div className="highlight_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A self motivated web developer with focus on front - end and user experience development.I have a deep understanding of Modern HTML, Javascript, CSS, Google SEO and as well PHP.I want to become a Full Stack Developer and learn more language as much as possible.
                 </div>
             </div>
         </Fade>
