@@ -16,6 +16,8 @@ class portfolio extends Component {
 
             'Ecom site - Have an Admin use that can create his/her items to sell and can edit items. Back end - Node(express) MongoDB',
 
+            'A Pure Css with Sass. Animation are all css no javascript involve',
+
             'You can view my activities or source code of all my projects in my Github'
         ],
         linkto: [
@@ -23,6 +25,7 @@ class portfolio extends Component {
           'https://vivixx-dev.herokuapp.com/profile/darryl',
           'http://inquisitive-pollution.surge.sh/',
           'https://nameless-ocean-14676.herokuapp.com/',
+          'https://darrylmangibin.github.io/CSS-SASS-/',
           'https://github.com/darrylmangibin'
         ],
         sourceCode: [
