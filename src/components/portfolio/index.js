@@ -33,6 +33,7 @@ class portfolio extends Component {
           'https://github.com/darrylmangibin/dev-connector-mern',
           'https://github.com/darrylmangibin/Reactjs-indecsion-app-v2',
           'https://github.com/darrylmangibin/waves',
+          'https://github.com/darrylmangibin/CSS-SASS-',
           'https://github.com/darrylmangibin/Reactjs-front-end'
         ],
         delay:[500,0,500, 500, 500]
