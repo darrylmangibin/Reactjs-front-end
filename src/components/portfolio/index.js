@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 class portfolio extends Component {
 
     state = {
-        name:['React','React','React', 'React', 'CSS, 'Github'],
+        name:['React','React','React', 'React', 'CSS', 'Github'],
         items:['Expensify','Social Media for developers', 'Pure React Javascript', 'Guitar Website', 'CSS and SASS with animations', 'Github Repository'],
         desc:[
             'CRUD Application for your expenses. You can list down all your expenses. Back end - Firebase',
