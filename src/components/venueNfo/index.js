@@ -25,7 +25,7 @@ const VunueNfo = () => {
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        12th December 2019 @10.00 pm
+                                        12th December 2020 @10.00 pm
                                     </div>
                                 </div>
                             </div>
