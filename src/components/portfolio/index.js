@@ -9,7 +9,8 @@ class portfolio extends Component {
 			"React",
 			"React",
 			"React",
-			"CSS",
+            "CSS",
+            "Ruby on rails",
 			"Front-End",
 			"Front-End",
 			"Front-End",
@@ -21,7 +22,8 @@ class portfolio extends Component {
 			"Social Media for developers",
 			"Pure React Javascript",
 			"Guitar Website",
-			"CSS and SASS with animations",
+            "CSS and SASS with animations",
+            "Ruby on rails(CRUD APP)",
 			"Asphalt-legends",
 			"Disney princess majestic quest",
 			"Getawayblast",
@@ -40,7 +42,9 @@ class portfolio extends Component {
 
 			"Ecom site - Have an Admin use that can create his/her items to sell and can edit items. Back end - Node(express) MongoDB",
 
-			"A Pure Css with Sass. Animation are all css no javascript involve",
+            "A Pure Css with Sass. Animation are all css no javascript involve",
+            
+            "Application that deals crup operation(Simple, take not that I didn't have styling. The aim is to show Rails functionality)",
 
 			"These are some of the projects in Gameloft and I am part of building as a Front-end developer",
 
@@ -63,7 +67,8 @@ class portfolio extends Component {
 			"https://vivixx-dev.herokuapp.com/profile/darryl",
 			"http://inquisitive-pollution.surge.sh/",
 			"https://nameless-ocean-14676.herokuapp.com/",
-			"https://darrylmangibin.github.io/CSS-SASS-/",
+            "https://darrylmangibin.github.io/CSS-SASS-/",
+            "https://fathomless-bayou-60436.herokuapp.com/",
 			"https://www.asphaltlegends.com/",
 			"https://www.gameloft.com/disneyprincess-majesticquest/en/",
 			"http://www.gameloft.com/en/game/disneygetawayblast/",
