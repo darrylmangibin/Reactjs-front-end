@@ -9,6 +9,8 @@ class portfolio extends Component {
 			"React",
 			"React",
 			"React",
+			"MERN",
+			"Node",
 			"CSS",
 			"Ruby on rails",
 			"Github",
@@ -22,6 +24,8 @@ class portfolio extends Component {
 			"Social Media for developers",
 			"Pure React Javascript",
 			"Guitar Website",
+			"Bao Shop",
+			"Node Api",
 			"CSS and SASS with animations",
 			"Ruby on rails(CRUD APP)",
 			"Github Repository",
@@ -41,6 +45,10 @@ class portfolio extends Component {
 			"Application that can decide your what to do. It is a simple React application",
 
 			"Ecom site - Have an Admin use that can create his/her items to sell and can edit items. Back end - Node(express) MongoDB",
+
+			"Ecom site - Simple Ecom site using React redux hooks and Node for the back end",
+
+			"Node Api - Reference for node projects",
 
 			"A Pure Css with Sass. Animation are all css no javascript involve",
 
@@ -67,6 +75,8 @@ class portfolio extends Component {
 			"https://vivixx-dev.herokuapp.com/profile/darryl",
 			"http://inquisitive-pollution.surge.sh/",
 			"https://nameless-ocean-14676.herokuapp.com/",
+			"https://baoshop.herokuapp.com/",
+			"",
 			"https://darrylmangibin.github.io/CSS-SASS-/",
 			"https://fathomless-bayou-60436.herokuapp.com/",
 			"https://github.com/darrylmangibin",
@@ -83,6 +93,8 @@ class portfolio extends Component {
 			"https://github.com/darrylmangibin/dev-connector-mern",
 			"https://github.com/darrylmangibin/Reactjs-indecsion-app-v2",
 			"https://github.com/darrylmangibin/waves",
+			"https://github.com/darrylmangibin/mern-ecommerce",
+			"https://github.com/darrylmangibin/NODE_API",
 			"https://github.com/darrylmangibin/CSS-SASS-",
 			"https://github.com/darrylmangibin/recipe",
 			"https://github.com/darrylmangibin/",
